@@ -1,0 +1,630 @@
+a:link {
+	color: #34495e;
+}
+
+a:visited {
+	color: #34495e;
+}
+
+#centerthis {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	text-align: center;
+	margin: 0px;
+	background-color: ;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'clearsans', Georgia, Times, "Times New Roman", serif;
+}
+
+@font-face {
+font-family: 'clearsans';
+/**
+clearsans is an open source font developed by Intel. I am not the creator or the artist. Please email me if you have any questions, thanks.
+**/
+src: url('TTF/ClearSans-Light.ttf');
+}
+
+.splash-container {
+    background: white;
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: -11em; left: 0; bottom: 0; right: 0;
+    text-align: center;
+   }
+
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 94%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+}
+
+.ribbon {
+    background: #34495e;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.ribbon2 {
+    background: white;
+    color: white;
+}
+
+.ribbon3 {
+    background: white;
+    color: #aaa;
+}
+
+.content-head-ribbon2 {
+    color: #34495e;
+}
+
+.ribbon4 {
+	background: #16a085;
+	cursor: pointer;
+}
+
+.ribbon5 {
+	background: #7f8c8d;
+	cursor: pointer;
+}
+
+.bookreviews {
+	background-color: white;
+	padding: 2em;
+}
+
+.ribbon6 {
+	background: white;
+}
+
+.header-wrap {
+	position: fixed;
+	z-index: 3;
+}
+
+.ribbon7 {
+	position: absolute;
+	text-align: center;
+	float: none !important;
+	position: fixed;
+}
+
+.ribbon8 {
+	text-align: center;
+	top: -0em;
+}
+
+
+.content-head-ribbon3 {
+    color: #16a085;
+}
+
+.content-head3 {
+	font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #16a085;
+}
+
+.content-head2 {
+	font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.content-head2 img {
+	max-height: 1.5em;
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: white;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {     
+	text-align: center; 
+}
+
+.landing-image img {
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	-webkit-margin-before: -1.1em;
+	-webkit-margin-after: -1.1em;
+}
+
+.icon-image img {
+	max-height: 1.5em;
+	margin-bottom: 1em;
+	margin-top: -1.1em;
+}
+
+#container {
+	font-family: arial;
+	text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    position: relative;
+}
+
+#thumbnail {
+	margin-right: auto;
+  	margin-left: auto;
+  	text-align: center;
+  	display: inline-block;
+  	position: relative;
+}
+
+#thumbnail .image img {
+	width: 200px;
+}
+
+#thumbnail .text {
+	font-style: italic;
+	position: absolute;
+	visibility: hidden;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -60%;
+}
+
+#thumbnail img {
+  	border-radius: 2px;
+}
+
+#header {
+	margin-top: 45px;
+    padding-top: 45px;
+}
+
+#heading {
+	margin-top: 15px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#subheading {
+    font-style: italic;
+    margin-top: .55em
+}
+
+#subsubheading {
+	font-family: 'Vollkorn', times;
+	font-size: 12px;
+	margin-bottom: .5em;
+}
+
+#email-button {
+	background-color: #34495e;
+	padding: 10px 5px 10px 5px;
+	border-radius: 2px;
+	margin-bottom: .5em;
+	margin-top: 1em;
+	font-size: 14px;
+	color: white;
+	font-family: 'clearsans', 'Helvetica Neue', sans-serif;
+	cursor: pointer;
+}
+
+a {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#email-div{
+	color: white;
+}
+
+#resume {
+	text-align: center;
+	font-size: 12pt;
+	font-family: 'clearsans', 'Helvetica Neue', sans-serif;
+	background-color: #34495e;
+	border-radius: 2px;
+	padding: 5px;
+	color: white;
+}
+
+#link {
+	margin-bottom: 10px;
+	margin-top: 160px;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 8px;
+    font-size: 12px;
+    background: #AAA7EB;
+    text-align: center;
+    width: 120px;
+    border-radius: 2px;
+}
+
+#jumpingpoint {
+	position: fixed;
+}
+
+#gateway {
+	position: fixed;
+	padding: 2px 20px 2px 20px;
+	background: #34495e;
+	border-radius: 2px;
+	font-family: 'clearsans', 'Helvetica Neue', sans-serif;
+	font-weight: lighter;
+	color: white;
+	display: none;
+	z-index: 100;
+	margin: 0.5em;
+}
+
+#portfolio {
+	margin: 0.5em;
+	position: fixed;
+	padding: 15px 30px 15px 30px;
+	background: #34495e;
+	border-radius: 2px;
+	font-family: 'clearsans', 'Helvetica Neue', sans-serif;
+	font-weight: lighter;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.panel {
+	display: none;
+}
+
+.acco {
+	margin: 15px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.panel-link{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 15px;
+	border: 1px white solid;
+	font-size: 14px;
+	color: white;
+}
+
+/* Blog Style */
+
+.clearfix { 
+	clear: both; 
+} 
+
+.blog-subtleicon {
+	position: fixed;
+	cursor: pointer;
+	z-index: 100;
+	left: 5px;
+	top: 5px;
+}
+
+.img-svg-bread{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	display: none;
+	z-index: 100;
+}
+
+.img-svg-like{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	z-index: 100;
+}
+
+.img-upper {
+	max-width: 100%;
+	display: inline-block;
+	z-index: 1000;
+}
+
+#upperpicture{
+	max-width: 100%;
+	left: 15%;
+	display: inline-block;
+	z-index: 1000;
+}
+
+#blog-container {
+	max-width: 50%;
+	font-weight: 100;
+	font-family: "Georgia", "Helvetica Neue", arial;
+	text-align: left;
+	left: -15%;
+	display: inline-block;
+}
+
+#blog-heading {
+	padding-top: 20px;
+	height: 50px;
+	text-align: left;
+	font-size: 36pt;
+}
+
+#blog-subheading {
+	height: 50px;
+	letter-spacing: 3px;
+	font-size: 20pt;
+}
+
+#blog-content {
+	text-align: justify;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16pt;
+}
+
+.blog-circles {
+	border: 1px solid; 
+	border-radius: 50px; 
+	width: 100px; 
+	height: 100px;
+}
+
+/* Isochrone Style */
+
+#iso-title {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 24pt;
+	z-index: 100;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.img-isochrone {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#iso-container {
+	max-width: 100%;
+	top: 50px;
+	cursor: pointer;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circles {
+	border: 1px solid; 
+	border-radius: 50px; 
+	width: 100px; 
+	height: 100px;
+	position: relative;
+	z-index: 100;
+	display: none;
+}
+
+/* Location, Location, Location */
+#location-title {
+	font-size: 45pt;
+	margin-top: 1em;
+	text-align: center;
+}
+
+#location-subtitle{
+	font-size: 25pt;
+	margin-bottom: 1.875em;
+	text-align: center;
+}
+
+#location-firstparagraph{
+	text-align: center;
+	text-align: justify;
+}
+
+#location-content{
+	width: auto;
+	max-width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'clearsans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+			      Helvetica, "Arial Narrow", sans-serif;
+	font-size: 16pt;
+}
+
+.location-image{
+	margin-left: auto;
+	margin-right: auto;
+	padding: .625em;
+}
+
+#location-credits{
+	text-align: center;
+	font-size: 9pt;
+	margin-bottom: 1.5em;
+}
+
+#location-pdf {
+	height: 2.5em;
+	width: 2.5em;
+	cursor: pointer;
+	margin: .625em;
+	padding: 1.25em;
+	background-color: #3498db;
+	border-radius: 3.75em;
+	display: inline-block;
+}
+
+#location-home {
+	height: 2.5em;
+	width: 2.5em;
+	cursor: pointer;
+	margin: .625em;
+	padding: 1.25em;
+	background-color: #c0392b;
+	border-radius: 3.75em;
+	display: inline-block;
+}
+
+/* Photo Portfolio */
+
+.pano-image {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: .625em;
+	padding-bottom: .625em;
+	width: 100%;
+	height: auto;
+}
+
+.photo-image {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .625em;
+}
+
+.background-image img {
+	width: 100%;
+	height: auto;
+	opacity: 1;
+	-webkit-margin-before: -1em;
+	-webkit-margin-after: -1em;
+}
+
+#backgroundimage {
+	position: absolute;
+}
+
+#footer {
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#location-secondpart {
+	text-align: center;
+	text-align: justify;
+}
+
+#testimage img {
+	width: 100%;
+	height: auto;
+}
+
+#container1 {
+	font-family: arial;
+	text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+#container2 {
+	font-family: arial;
+	text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+#heading2 {
+	font-family: 'clearsans';
+	margin-top: 15px;
+	font-size: 2.25em;
+	margin-bottom: 15px;
+}
+
+.acco1 {
+	margin: 15px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.panel-link1 {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 15px;
+	border: 1px white solid;
+	font-size: 14px;
+	font-color: black;
+}
+
+.ingredients {
+	text-align: left;
+	background-color: #0B5042;
+	border: .05em black solid;
+	color: white;
+	padding: .5em;
+
+}
+
+.instructions {
+	text-align: left;
+	background-color: #C0392B;
+	border: .05em black solid;
+	color: white;
+	padding: .5em;
+}
+
+.recipe-list {
+	padding: .5em;
+	border-left: .05em black solid;
+	border-right: .05em black solid;
+	border-bottom: .05em black solid;
+	text-align: left;
+}
+
+.recipe {
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+}
